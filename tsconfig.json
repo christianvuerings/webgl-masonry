@@ -1,0 +1,11 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["dom", "es2015"],
+    "jsx": "react"
+  }
+}

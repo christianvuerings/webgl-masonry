@@ -1,0 +1,42 @@
+{
+  "name": "webgl-masonry",
+  "version": "1.0.0",
+  "description": "WebGL version of a masonry layout",
+  "main": "index.js",
+  "dependencies": {
+    "@react-three/drei": "^9.31.1",
+    "@react-three/fiber": "^8.7.4",
+    "@types/three": "^0.144.0",
+    "http-proxy-middleware": "^2.0.6",
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.144.0",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "tsc --noEmit",
+    "start": "parcel --https index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianvuerings/webgl-masonry.git"
+  },
+  "keywords": [
+    "webgl",
+    "masonry"
+  ],
+  "author": "Christian Vuerings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianvuerings/webgl-masonry/issues"
+  },
+  "homepage": "https://github.com/christianvuerings/webgl-masonry#readme",
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "buffer": "^6.0.3",
+    "prettier": "2.7.1",
+    "process": "^0.11.10"
+  }
+}
